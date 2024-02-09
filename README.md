@@ -6,7 +6,7 @@ marp: true
 theme: gaia
 class:
  - invert
-headingDivider: 2 
+headingDivider: 2
 paginate: true
 -->
 
@@ -16,118 +16,129 @@ _class:
  - invert
 -->
 
-# Deploy Marp to GitHub Pages
+# 1 画面で生きる
 
-Presentations to Webpages: Instantly!
+トータルで考える
 
-## What?
+## 誰お前？
 
-[Marp](https://marp.app/) lets you create HTML slides from markdown (like this!).
+- 氏名: 大杉太郎
+- Twitter: @tarosg
+- 仕事:エンジニア，プログラミング講師
+- 技術: Laravel，JS，Deno，（Rust）
+- 好きなもの: 💻，📚，🥃，✈ 🚌 🚃，🚮
 
-This presentation is both a [website](https://alexsci.com/marp-to-pages) and a [README.md](https://github.com/ralexander-phi/marp-to-pages/blob/main/README.md).
+![bg right:33% width:180px alt text](./img/image.png)
 
-## Why?
+## 1 画面で生きる
 
-Treat your presentation the same way you treat code.
-
-- Use git to track changes
-- Pull requests to collaborate
-- Deploy automatically
-- See a problem? Open an issue!
-
-## Setup
-
-Want to create your own?
-
-First, create a new repo [from the template repo](https://github.com/ralexander-phi/marp-to-pages).
-
-![](img/use-template.png)
-
-## Configure GitHub Pages
-
-Open your new repo and [setup publishing](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
-
-You'll typically use `gh-pages` as the deploy branch.
-
-## Review Build
-
-Click on Actions tab and see if the build succeeded (it may take some time).
-
-![](img/click-actions.png)
-
-You should now see the generated files in the `gh-pages` branch.
-
-## View webpage
-
-Open your deployed webpage to see the content.
-
-Out of the box you should see `README.md` as `/index.html` and `/README.pdf`. Slides under `docs/` are also converted.
-
-## Running locally
-
-Locally you'll run commands like:
-
-```
-$ marp README.md -o build/README.pdf
-```
-
-or
-
-```
-$ npx @marp-team/marp-cli@latest README.md -o build/README.pdf
-```
-
-## As a workflow step
-
-The workflow runs an equivalent step:
-
-```
-- name: Marp Build (README.pdf)
-  uses: docker://marpteam/marp-cli:v1.7.0
-  with:
-    args: README.md -o build/README.pdf
-  env:
-    MARP_USER: root:root
-```
-
-Note the `args` match the previous slide.
-
-## Customizing the build
-
-Anything in the `build/` folder will be deployed to GitHub Pages.
-
-You can copy extra files or run further processing steps using other tools.
-
-## Learn more about Marp
-
-This is a good time to learn more about Marp. Here's some resources:
-
-- [CommonMark](https://commonmark.org/)
-- [Cheat Sheet](https://commonmark.org/help/)
-- [Themes](https://github.com/marp-team/marp-core/tree/master/themes)
-- [CSS Themes](https://marpit.marp.app/theme-css)
-- [Directives](https://marpit.marp.app/directives)
-- [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
-
-## Example Sites
-
-Known sites using this action are:
-
-- [University of Illinois at Urbana-Champaign's CS 199 Even More Practice](https://cs199emp.netlify.app/) [(code)](https://github.com/harsh183/emp-125)
-- [Exploring agent based models](https://roiarthurb.github.io/Talk-UMMISCO_06-07-2020/) [(code)](https://github.com/RoiArthurB/Talk-UMMISCO_06-07-2020)
-
-Send a [pull request](https://github.com/ralexander-phi/marp-to-pages) to get your site added.
-
-## Publish your slides
-
-When you are ready to share your presentation, commit or merge to `main` and your content on GitHub Pages will automatically update.
-
-# 🎉
 <!--
 _class:
  - lead
  - invert
 -->
-### Hooray!
 
+## 最近のデスク環境
 
+![w:750 desktop bg](./img/25A5503F-9298-4A0B-894E-55673C7E30B3_1_105_c.jpeg)
+
+## 機材
+
+- MacBook Air (M2)
+- ノイキャンヘッドホン（Bowers & Wilkins PX7SE2）
+  - ↑ AirPods Pro の場合もあり
+- （iPad mini）
+
+## 画面数の議論ではない
+
+画面数いくつがいいとかではない．
+
+そもそも議論の余地はないッ！
+
+- 27 インチ \* 2 マジ快適！
+- 好きなキーボード使うの最高！
+- マウスで大事なのはボタンの数！
+- 左手デバイス！（使ってみたい）
+
+## 1 画面で仕事してます！ ← なんでや
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+## 自分が大事にしていること
+
+**快適な環境 ≠ 仕事のパフォーマンス**
+
+- 正確さ．
+- スピード．
+- **安定性．**
+
+トータルでパフォーマンスが最大化する環境 is 何？
+
+## 筆者の仕事（と環境）
+
+- フルリモート．
+- 旅するのが好き．
+
+どこでもコード書くし，どこでも講義する．
+
+**仕事の環境は行くまでわからん．その時いる場所が仕事場**
+
+##
+
+![w:750 alt text bg](./img/IMG_1423.jpg)
+
+##
+
+![w:750 alt text bg](./img/IMG_0209.jpg)
+
+![w:750 alt text bg](./img/IMG_0471.jpg)
+
+##
+
+![w:750 alt text bg](./img/IMG_0846.jpg)
+
+## 放浪する人の課題
+
+**場所によってパフォーマンスが上下するのは良くない．**
+
+- 荷物の量．
+- バッテリー．
+- デスクの環境変わりすぎ問題．
+
+```
+                 ＿人人人人人人人人人人人人人人人人＿
+                 ＞　快適な環境を持ち歩くのは無理　＜
+                 ￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣
+```
+
+## 人間が合わせれば良い
+
+→ じゃ家でもどこでも同じ環境で仕事すればよくね？
+
+→ 常に MacBook 1 台で仕事すればどこ行っても同じや！
+
+## まとめ
+
+移動が多い人は 1 画面もあり．
+
+- 画面数の議論ではない．
+- 快適な環境 ≠ 仕事のパフォーマンス．
+- 人間が合わせても結構慣れる．
+
+**成果を出すための環境構築（物理）のも仕事のうち．**
+
+# 🥃
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+### Thanks!
+
+![width:180px alt text](./img/image.png)
