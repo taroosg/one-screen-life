@@ -27,6 +27,7 @@ _class:
 - 仕事:エンジニア，プログラミング講師
 - 技術: Laravel，JS，Deno，（Rust）
 - 好きなもの: 💻，📚，🥃，✈ 🚌 🚃，🚮
+- ジーズアカデミーに（たまに）います．
 
 ![bg right:33% width:180px alt text](./img/image.png)
 
